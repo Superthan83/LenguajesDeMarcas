@@ -1,0 +1,54 @@
+/*aboutme*/
+.titulo{
+display:flex;   
+justify-content: center;
+font-style: normal;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 70px;
+}
+.fotos{
+display:flex;
+justify-content: center;
+border-color: brown;
+border-style:solid;
+background-color: brown;
+}
+.texto{
+font-style: normal;
+font-family:fantasy;
+font-size: 35px;
+width: 1300px;
+text-align: justify;
+margin-left: 100px;}
+.background{
+    background-color:beige;
+}
+.btn:hover{
+background-color:brown;    
+}
+.btn{
+font-style: normal;
+font-family:fantasy;
+font-size: 50px;
+margin-left: 140px;
+}
+.video{
+margin-left: 310px;
+}
+/*estudiosPrevios*/
+#btn{
+font-style: normal;
+font-family:fantasy;
+font-size: 20px;
+margin-left: 140px;   
+}
+.fotoHabilidades{
+display:grid;
+justify-content: center;
+font-style: normal;
+font-family:fantasy;
+font-size: 35px;
+width: 1300px;
+text-align: justify;
+margin-left: 100px;
+}

@@ -1,0 +1,45 @@
+template{
+    width: 100%;
+    height: 100%;
+}
+.contenedor1{
+    background-color:rgb(38, 204, 182);
+    width: 100%;
+    height: 150px;
+    margin
+}
+.contenedor2{
+    margin-top: 10px;
+    background-color:fuchsia;
+    width: 100%;
+    height: 50px; 
+    }
+.contenedor3{
+    margin-top: 10px;
+    background-color:yellow;
+    width: 23%;
+    height: 60px; 
+}
+.contenedor4{
+    margin-top: 10px;
+    background-color:red;
+    width: 23%;
+    height: 300px;
+}
+.contenedor5{
+    margin-top: 15px;
+    float: right;
+    background-color:blue;
+    width: 75%;
+    height: 370px;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+}
+.contenedor6{
+    margin-top: 10px;
+    background-color:black;
+    width: 100%;
+    height: 50px;
+}
