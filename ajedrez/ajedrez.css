@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.fila1{
+    height: 70px;
+    display: flex;
+}
+.fila2{
+    height: 70px;
+    display: flex;
+}
+.fila3{
+    height: 70px;
+    display: flex;
+}
+.fila4{
+    height: 70px;
+    display: flex;
+}
+.fila5{
+    height: 70px;
+    display: flex;
+}
+.fila6{
+    height: 70px;
+    display: flex;
+}
+.fila7{
+    height: 70px;
+    display: flex;
+    color: white;
+}
+.fila8{
+    height: 70px;
+    display: flex;
+    color: white;
+
+}
+.divRojo{
+    background-color: red;
+    width: 12.5%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 50px;
+}
+.divGris{
+    background-color: grey;
+    width: 12.5%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 50px;
+}
