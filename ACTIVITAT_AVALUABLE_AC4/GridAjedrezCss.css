@@ -1,0 +1,29 @@
+.container{
+
+    display: grid;
+    grid-template-rows:50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-columns:50px 50px 50px 50px 50px 50px 50px 50px;
+    text-align: center; 
+    grid-template-areas:
+    "divRojo, divGris, divRojo, divGris, divRojo, divGris, divRojo, divGirs"
+    "divGris, divRojo, divGris, divGris, divRojo, divGris, divRojo, divGris "
+    "divRojo, divGris, divRojo, divGris, divRojo, divGris, divRojo, divGirs"
+    "divGris, divRojo, divGris, divGris, divRojo, divGris, divRojo, divGris "
+    "divRojo, divGris, divRojo, divGris, divRojo, divGris, divRojo, divGirs"
+    "divGris, divRojo, divGris, divGris, divRojo, divGris, divRojo, divGris "
+    "divRojo, divGris, divRojo, divGris, divRojo, divGris, divRojo, divGirs"
+    "divGris, divRojo, divGris, divGris, divRojo, divGris, divRojo, divGris "
+    ;
+    }
+    .divRojo{
+        background-color: red;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+    .divGris{
+        background-color: grey;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
