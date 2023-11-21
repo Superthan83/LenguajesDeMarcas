@@ -1,46 +1,62 @@
 .container{
     display: grid;
-    text-align: center; 
-    grid-template-rows:80px 50px 50px 50px 50px 50px 50px 50px;
-    grid-template-columns:50px 50px 50px 50px 50px 50px 50px 50px;
+    /*text-align: center; */
     grid-template-areas:
-  "divRojo,divAzul,divBeige"
-  "divBlanco,divBeige2,divBlanco2,divRojo2"
-            "divRojo3,divAzul2";
+    'uno uno uno dos dos tres tres tres'
+    'uno uno uno dos dos tres tres tres'
+    'uno uno uno cuatro cinco cinco nueve nueve'
+    'uno uno uno cuatro cinco cinco nueve nueve'
+    'ocho ocho ocho cuatro cinco cinco nueve nueve'
+    'ocho ocho ocho cuatro cinco cinco nueve nueve'
+    'ocho ocho ocho seis seis siete nueve nueve'
+    'ocho ocho ocho seis seis siete nueve nueve'
+    ;
+    border: solid 5px;
     }
-.divRojo{
+.uno{
     background-color:red;
-    border-style: solid;
+    border: solid 5px;
+    grid-area: uno;
 }
-.divAzul{
-    background-color: blue;
-    border-style: solid;
+.dos{
+    background-color: aquamarine;
+    border: solid 5px;
+    grid-area: dos;
 }
-.divBeige{
-    background-color: beige;
-    border-style: solid;
+.tres{
+    background-color: burlywood;
+    border: solid 5px;
+    grid-area: tres;
+    height: 100px;
 }
-.divBlanco{
+.cuatro{
+    background-color: burlywood;
+    border: solid 5px;
+    grid-area: cuatro;
+}
+.cinco{
     background-color: white;
-    border-style: solid;
+    border: solid 5px;
+    grid-area: cinco;
 }
-.divBeige2{
-    background-color: beige;
-    border-style: solid;
+.seis{
+    background-color: red;
+    border: solid 5px;
+    grid-area: seis;
 }
-.divBlanco2{
+.siete{
+    background-color: aquamarine;
+    border: solid 5px;
+    grid-area: siete;
+}
+.ocho{
     background-color: white;
-    border-style: solid;
+    border: solid 5px;
+    grid-area: ocho;
 }
-.divRojo2{
+.nueve{
     background-color: red;
-    border-style: solid;
-}
-.divRojo3{
-    background-color: red;
-    border-style: solid;
-}
-.divAzul2{
-    background-color: blue;
-    border-style: solid;
+    border: solid 5px;
+    grid-area: nueve;
+    height: 200px;
 }
